@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37824319702",
+    "firebase_url": "https://spc-profession.firebaseio.com",
+    "project_id": "spc-profession",
+    "storage_bucket": "spc-profession.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37824319702:android:90b64f8d8b5d7c386a7977",
+        "android_client_info": {
+          "package_name": "com.example.spcprofession"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37824319702-gam0j3gkiplp2vhddv1ashh142l2uokm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBExo6tjJONccEzPDA9ZIKBbR5wLHkJYtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37824319702-gam0j3gkiplp2vhddv1ashh142l2uokm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

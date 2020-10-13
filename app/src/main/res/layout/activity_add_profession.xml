@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#EFE7F4"
+    tools:context=".ui.addProfession.AddProfession">
+
+
+  <EditText
+      android:id="@+id/PERSON_NAME"
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:background="@drawable/edit_text_field"
+      android:layout_height="wrap_content"
+      android:inputType="textPersonName"
+      android:layout_marginBottom="10dp"
+      android:textSize="16sp"
+      android:hint="Enter your name" />
+  <Spinner
+      android:id="@+id/PERSON_PROFESSION"
+      android:layout_marginBottom="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:background="@drawable/edit_text_field"
+      android:inputType="textPersonName" />
+  <Spinner
+      android:id="@+id/FEE_RANGE"
+      android:layout_marginBottom="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:visibility="gone"
+      android:background="@drawable/edit_text_field"
+      android:inputType="textPersonName" />
+  <EditText
+      android:id="@+id/AREA_NAME"
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/edit_text_field"
+      android:layout_height="wrap_content"
+      android:inputType="textPersonName"
+      android:textSize="16sp"
+      android:hint="Area i.e. Dhanmondi, Uttara, Dhaka" />
+  <EditText
+      android:id="@+id/DESCRIPTION"
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:background="@drawable/edit_text_field"
+      android:layout_height="wrap_content"
+
+      android:textSize="16sp"
+      android:layout_marginBottom="30dp"
+      android:maxLines="4"
+      android:lines="3"
+
+      android:maxLength="120"
+      android:minEms="1"
+      android:minLines="1"
+      android:scrollbars="vertical"
+      android:inputType="textMultiLine"
+      android:hint="Describe Yourself [120]" />
+
+  <Button
+      android:id="@+id/SUBMIT_BUTTON"
+      android:textColor="#ffff"
+      android:layout_width="match_parent"
+      android:background="@drawable/button"
+      android:layout_height="wrap_content"
+      android:text="SUBMIT PROFESSION" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical"
+    tools:context=".applyPost.HireProfessional">
+    <TextView
+        android:id="@+id/PROF_APdd"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Profile Details"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#ffff"
+         />
+    <TextView
+        android:id="@+id/NAME_APP"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edit_text_field2"
+        android:hint="Name" />
+
+
+    <TextView
+        android:id="@+id/PROF_AP"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edit_text_field2"
+        android:hint="Profession" />
+
+    <TextView
+        android:id="@+id/AREA_AP"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:paddingHorizontal="10dp"
+        android:background="#ffff"
+        android:hint="Area's" />
+
+    <TextView
+        android:id="@+id/DES_AP"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:paddingHorizontal="10dp"
+        android:maxLines="5"
+        android:background="#ffff"
+        android:hint="Description" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:text="HIRE PROFESSIONAL" />
+
+</LinearLayout>
